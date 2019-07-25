@@ -17,6 +17,9 @@ html {
 .polaroid > img {
   display: block;
   width: 100%;
+  position: absolute;
+  transition: all 2s linear;
+
 }
 
 .polaroid > figcaption {
@@ -26,15 +29,21 @@ html {
 
 .polaroid:first-child {
   -webkit-transform: rotate(-15deg);
+  left: 10em;
+  top: 6em;
 
 }
 
 .polaroid:nth-child(2) {
   -webkit-transform: rotate(5deg);
-
+  z-index: 1;
+  left: 18em;
+  top: 9em;
 }
 
 .polaroid:nth-child(3) {
   -webkit-transform: rotate(30deg);
+  left: 25em;
+  top: 5em;
 
 }
