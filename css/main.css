@@ -24,6 +24,10 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  z-index: 1;
+  top: 7em;
+  left: 5em;
 }
 
 .polaroid:first-child {
@@ -36,7 +40,7 @@ html {
 .polaroid:nth-child(2) {
   -webkit-transform: rotate(4deg);
   left: 18em;
-  top: 9em;
+  top:9em;
   z-index: 3;
 }
 
