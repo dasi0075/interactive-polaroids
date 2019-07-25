@@ -50,10 +50,10 @@ html {
 .polaroid:hover {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .8);
   transform: rotate(0deg);
-  z-index: 1;
+  z-index: 4;
 }
 
 .polaroid:nth-child(2):hover {
   transform: rotate(0deg);
-  z-index: none;
+  z-index: 3;
 }
