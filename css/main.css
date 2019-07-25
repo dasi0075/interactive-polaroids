@@ -25,16 +25,16 @@ html {
 }
 
 .polaroid:first-child {
-
+  -webkit-transform: rotate(-15deg);
 
 }
 
 .polaroid:nth-child(2) {
-
+  -webkit-transform: rotate(5deg);
 
 }
 
 .polaroid:nth-child(3) {
-
+  -webkit-transform: rotate(30deg);
 
 }
