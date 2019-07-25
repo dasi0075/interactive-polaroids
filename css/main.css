@@ -23,3 +23,18 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.polaroid:first-child {
+
+
+}
+
+.polaroid:nth-child(2) {
+
+
+}
+
+.polaroid:nth-child(3) {
+
+
+}
