@@ -55,8 +55,3 @@ html {
   transform: rotate(0deg);
   z-index: 4;
 }
-
-.polaroid:nth-child(2):hover {
-  transform: rotate(0deg);
-  z-index: 2;
-}
