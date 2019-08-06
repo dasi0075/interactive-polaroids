@@ -8,12 +8,10 @@ html {
   margin: 0;
   padding: 10px;
   width: 250px;
-
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   position: absolute;
-  transition: all 2s linear;
 }
 
 .polaroid > img {
@@ -55,4 +53,9 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .8);
   transform: rotate(0deg);
   z-index: 4;
+}
+
+.polaroid:nth-child(2):hover {
+  transform: rotate(0deg);
+  z-index: 2;
 }
