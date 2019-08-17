@@ -40,7 +40,7 @@ html {
   -webkit-transform: rotate(4deg);
   left: 18em;
   top: 9em;
-  z-index: 3;
+  z-index: 4;
 }
 
 .polaroid:nth-child(3) {
